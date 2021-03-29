@@ -11,7 +11,6 @@
   
 </head>
 <body>
-  <div class="card-container">
     <div class="card">
       <img src="./images/illustration-box-desktop.svg" alt="Box" class="box-img">
       <div class="card-image">
@@ -25,11 +24,9 @@
         <h2 class="faq">FAQ</h2>
         <div class="items">
         <div class="accordion-item">
-          <div class="question">
-            <button>
-              How many team members can I invite?
-            </button>
-          </div>
+          <button class="question" data-id="0">
+            How many team members can I invite?
+          </button>
           <div class="accordion-collapse">
             <div class="accordion-text">
               <p>You can invite up to 2 additional users on the Free plan. There is no limit on 
@@ -38,12 +35,10 @@
           </div>
         </div>
         <div class="accordion-item">
-          <div class="question active">
-            <button>
-              What is the maximum file upload size?
-            </button>
-          </div>
-          <div class="accordion-collapse">
+          <button class="question" data-id="1">
+            What is the maximum file upload size?
+          </button>
+          <div class="accordion-collapse ">
             <div class="accordion-text">
               <p>
                 No more than 2GB. All files in your account must fit your allotted storage space.
@@ -52,11 +47,9 @@
           </div>
         </div>
         <div class="accordion-item">
-          <div class="question">
-            <button>
-              How do I reset my password?
-            </button>
-          </div>
+          <button class="question" data-id="2">
+            How do I reset my password?
+          </button>
           <div class="accordion-collapse">
             <div class="accordion-text">
               <p>
@@ -67,11 +60,9 @@
           </div>
         </div>
         <div class="accordion-item">
-          <div class="question">
-            <button>
-              Can I cancel my subscription?
-            </button>
-          </div>
+          <button class="question" data-id="3">
+            Can I cancel my subscription?
+          </button>
           <div class="accordion-collapse">
             <div class="accordion-text">
               <p>
@@ -81,11 +72,9 @@
           </div>
         </div>
         <div class="accordion-item">
-          <div class="question">
-            <button>
-              Do you provide additional support?
-            </button>
-          </div>
+          <button class="question" data-id="4">
+            Do you provide additional support?
+          </button>
           <div class="accordion-collapse">
             <div class="accordion-text">
               <p>
@@ -97,10 +86,10 @@
       </div>
     </div>
   </div>
-  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/Goomel">Jakub Grzymisławski</a>.
   </div>
+  <script src="main.js"></script>
 </body>
 </html>
